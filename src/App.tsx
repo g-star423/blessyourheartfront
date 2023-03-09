@@ -1,26 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Bless Your Heart</h1>
+      <Button variant="text">Bless Your Heart</Button>
+      <Button variant="text">Bless Your Heart ❤️</Button>
+    </>
   );
 }
 
 export default App;
+// will need to have chat time
+// will need to have list of contacts

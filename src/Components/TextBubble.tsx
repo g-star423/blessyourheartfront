@@ -1,0 +1,6 @@
+function TextBubble() {
+    return (
+        <>
+        </>
+    )
+}
